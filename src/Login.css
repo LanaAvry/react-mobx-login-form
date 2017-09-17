@@ -1,0 +1,42 @@
+.loginForm {
+    text-align: center;
+}
+
+.loginHeader {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+input[type='text'],
+input[type='password'] {
+    border-radius: 7px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.input--invalid {
+    border-color: red;
+}
+
+button {
+    border-radius: 12px;
+    border-color: lightgrey;
+    background-color: transparent;
+    height: 30px;
+    width: 85px;
+    color: blue;
+}
+
+.fa-fire {
+    color: orange;
+}
+
+.fa-long-arrow-right {
+    color: blue;
+}
